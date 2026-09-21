@@ -1,2 +1,2 @@
 # Engineering Journal
-## September 21 - Project Started
+September 21 - Project Started
