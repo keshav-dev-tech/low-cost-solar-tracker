@@ -1,2 +1,2 @@
 # Low-Cost Automatic Solar Tracker
-Project Overview
+## Project Overview
