@@ -6,3 +6,13 @@ My goal is to not just build a working tracker, but to experimentally determine 
 
 ## Research Question
 Can a low-cost single-axis solar tracker increase the net energy collected by a small solar panel compared with a stationary panel?
+## Project Goals
+- Design and build an automatic single-axis solar tracker
+- Use light sensors to determine the direction of sunlight
+- Develop a control system using an Arduino
+- Measure the power produced by the solar panel
+- Measure the energy consumed by the tracking system
+- Compare the tracker with a stationary control panel
+- Identify weaknesses in the first prototype
+- Improve the design and test it again
+- Document the entire engineering process
