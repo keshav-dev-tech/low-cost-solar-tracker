@@ -18,4 +18,6 @@
 - Formula: I = V/R
 - Resistor: a tiny electronic component meant to resist or slow down the electrical current.
 ## Voltage Dividers
-
+- A voltage divider is a simple and fundamental circuit that scales down a high voltage to a lower one.
+- It takes the incoming voltage and divides it using a pair of resistors connected in series.
+- It starts with Vin(voltage in) and then goes downhill and fights through resistor 1 and then
