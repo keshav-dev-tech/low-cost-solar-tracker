@@ -20,4 +20,18 @@
 ## Voltage Dividers
 - A voltage divider is a simple and fundamental circuit that scales down a high voltage to a lower one.
 - It takes the incoming voltage and divides it using a pair of resistors connected in series.
-- It starts with Vin(voltage in) and then goes downhill and fights through resistor 1 and then
+- It starts with Vin(voltage in) and then goes downhill and fights through resistor 1 and then fights through resistor 2 and then by the time the current fights through both those resistors, the voltage would be around 0.
+- The Vout is taken from the middle of the 2 resistors because, if it is taken after the 2 resistors, than the voltage will be around 0.
+- Formula for Vout: Vout = Vin * (R2/(R1 + R2))
+## LDRs
+- LDRs are Light Dependent Resistors or photoresistors.
+- They are electronic components where their resistance changes based on the amount of light shining on it.
+- More light = less resistance while less light = more resistance.
+- Voltage dividers are the essential bridge that allow LDRs to talk to a computer chip.
+- Since microcontrollers/arduino only measures can't read resistance directly(they can only measure voltage), By using the formula for Vout, you can get the amount of voltage for resistor 1 rather than resistance.
+## Analog vs Digital Signal
+- In analog signal, it copies nature where things change gradually.
+- analog signals can read a smooth or continuous slide of voltages between 0V and whatever amount of volts.
+- When analogRead is used in Arduino, it slices the voltage into a number between 0 and 1023 and based on were its located between 0 and the target number of volts, it will spit out a number that is between 0 and 1023 that represents where it is located between 0 and target number of volts.
+- However when digitalRead is done when using Arduino, it doesn't care how much volts is there or where its located between the interval. If it is higher than a certain number on the internal, it spits out 1 while if its not, it spits out 0.
+-  
