@@ -1,5 +1,5 @@
 # Research Question
-Can a low-cost double-axis solar tracker increase the net energy collected by a small solar panel compared with a stationary solar panel?
+Can a low-cost single-axis solar tracker increase the net energy collected by a small solar panel compared with a stationary solar panel?
 # Independent Variable
 Tracking vs. stationary panel
 # Dependent Variables
