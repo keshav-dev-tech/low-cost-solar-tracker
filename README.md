@@ -6,7 +6,7 @@ My goal is to not just build a working tracker, but to experimentally determine 
 
 
 ## Project Goals
-- Design and build an automatic single-axis solar tracker
+- Design and build an automatic double-axis solar tracker
 - Use light sensors to determine the direction of sunlight
 - Develop a control system using an Arduino
 - Measure the power produced by the solar panel
